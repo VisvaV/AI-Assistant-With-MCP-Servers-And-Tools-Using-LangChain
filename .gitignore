@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Virtual environments
+venv/
+.mcp-venv/
+.mcp-lc/
+.mcp-env/
+*.env/
+.envrc
+pip-selfcheck.json
+
+# Dependency locking
+poetry.lock
+Pipfile.lock
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Test results
+pytest_cache/
+.tox/
+.nox/
+
+# IDEs
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Chainlit logs / cache (if used)
+.chainlit/
+chainlit.log
+
+# Tool output directories (custom)
+output/
+temp/
+browser_config.json
+browser_mcp.json
+
+# Docker
+*.pid
+*.sock
+
+# Mac & Linux system files
+*.DS_Store
+*.Trash-*
+
+# Windows system files
+ehthumbs.db
+Icon?
+Desktop.ini
